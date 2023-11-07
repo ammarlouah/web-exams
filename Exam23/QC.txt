@@ -1,0 +1,18 @@
+1 - indice => <p>X<sub>3</sub></p>
+    exposant => <p>X<sup>5</sup></p>
+
+2 - NOSHADE => attribut de la balise <hr> l'effect est une ligne pleine sans ombrage
+    CELLPADDING=n => ajouter un espacement de n pixels autour du text dans la cellule
+    CELLSPACING=m => ajouter un espacement de m pixels entre les cellules
+    PLACEHOLDER => donne une indication sur le contenue de champ l'indication diparetra si on click sur le champ
+
+3 - shuffle($tab)
+
+4 - reset($tab)
+    current($tab)
+    -----
+    next($tab)
+    prev($tab)
+    -----
+    count($tab)
+    each($tab)

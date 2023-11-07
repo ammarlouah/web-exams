@@ -1,0 +1,13 @@
+                            Question de cours
+
+1 - <!-- commentaire -->
+2 - 
+    <p> X<sub>3</sub>   </p>
+    <p> X<sup>5</sup>   </p>
+3 - NOSHADE : attribut de la balise <HR> son effet est une ligne pleine sans ombrage
+    CELLPADING = n : ajoute un  espacement de n pixels autour de l'ectriture dans les cellules
+    CELLSPACING = m : ajoute un espacement de m pixels entre les cellules
+    PLACEHOLDER : permet de donner une indication sur le contenu de champ
+4 - detruire : unset($var)
+    concatinate : array_merge($tab1,$tab2)
+5 - echo date("d-F-Y H:i:s")
