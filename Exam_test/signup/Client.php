@@ -51,7 +51,7 @@
     echo "correct<br>";
     $numero=(int)$numero;
     $age=(int)$age;
-    $query = "INSERT INTO client VALUES ($numero,'$nom','   $prenom',$age,'$adress','$tel','$email','$password');";
+    $query = "INSERT INTO client VALUES ($numero,'$nom','$prenom',$age,'$adress','$tel','$email','$password');";
     // $req = mysqli_query($connection,$query);
 
     // if($req == false){
@@ -90,5 +90,5 @@
         echo "</tr>";
     }
     echo "</table>";
-
+    mysqli_close($connection);
 ?>

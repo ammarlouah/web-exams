@@ -8,8 +8,8 @@ echo $_FILES['fichier']['name'];
 echo "<br>";
 echo $_FILES['fichier']['type'];
 echo "<br>";
-if(date("H"==20)){
-    if(move_uploaded_file($_FILES['fichier']['tmp_name'],"C:/TP")){
+if(date("H")==20){
+    if(!move_uploaded_file($_FILES['fichier']['tmp_name'],"C:/TP/".$_FILES['fichier']['name'])){
         die("erreur de deplacement");
     }
 }
